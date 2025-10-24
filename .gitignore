@@ -1,0 +1,32 @@
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Package files
+*.zip
+*.crx
+*.pem
+
+# Test files (optional - remove from .gitignore if you want to commit them)
+# test.html
