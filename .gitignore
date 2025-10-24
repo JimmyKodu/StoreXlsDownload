@@ -27,3 +27,6 @@ build/
 *.zip
 *.crx
 *.pem
+
+# Test files (optional - remove from .gitignore if you want to commit them)
+# test.html
