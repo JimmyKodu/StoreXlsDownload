@@ -15,7 +15,7 @@ zip -r StoreXlsDownload.zip \
   popup.js \
   icons/ \
   README.md \
-  -x "*.git*" "*.DS_Store" "*test.html" "*INSTALLATION.md" "*package.sh"
+  -x "*.git*" "*.DS_Store" "test.html" "INSTALLATION.md" "package.sh"
 
 echo ""
 if [ $? -eq 0 ]; then

@@ -83,7 +83,7 @@
     
     <div class="test-links">
       <h2>测试下载链接</h2>
-      <p><strong>注意：</strong>这些是示例 XLS 文件的在线链接。您也可以从任何网站下载 XLS 文件进行测试。</p>
+      <p><strong>注意：</strong>这些是模拟的 XLS 文件下载（实际内容为 CSV 格式）。扩展会根据文件扩展名检测到它们。您也可以从任何网站下载真实的 XLS 文件进行测试。</p>
       
       <a href="#" onclick="createAndDownloadXLS('sample1.xls'); return false;">
         📄 下载测试文件 1 (sample1.xls)
@@ -135,7 +135,7 @@
         window.URL.revokeObjectURL(url);
       }, 100);
       
-      alert('下载已开始！请检查扩展是否拦截到此文件。');
+      alert('下载已开始！请检查扩展是否拦截到此文件。\n\n提示：这是模拟的 XLS 文件，实际内容为 CSV 格式。');
     }
   </script>
 </body>
